@@ -110,7 +110,7 @@ Value* NBinaryOperator::codeGen(CodeGenContext& context)
 		case TDIV: 		instr = Instruction::SDiv; goto math;
 		case TMOD: 		instr = Instruction::URem; goto math;
 				
-		/* TODO comparison */
+		// case TCEQ       instr = Instruction::
 	}
 	return NULL;
 math:

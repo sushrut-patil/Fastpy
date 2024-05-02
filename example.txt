@@ -1,9 +1,11 @@
 int solve(int a) {
-  int x = a % 5
+  int x = (a * 5 / 5) + 11
   return x
 }
 
-int z = solve(101)
-echo(z)
+int z = solve(10)
+print(z)
 
-
+double x = 9
+x = x / 2
+print(x)
