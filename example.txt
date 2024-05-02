@@ -1,0 +1,9 @@
+int solve(int a) {
+  int x = a % 5
+  return x
+}
+
+int z = solve(101)
+echo(z)
+
+
