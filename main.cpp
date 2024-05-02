@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 		open_file(argv[1]);
 	}
 	yyparse();
-	cout << programBlock << endl;
+	// cout << programBlock << endl;
     // see http://comments.gmane.org/gmane.comp.compilers.llvm.devel/33877
 	InitializeNativeTarget();
 	InitializeNativeTargetAsmPrinter();
