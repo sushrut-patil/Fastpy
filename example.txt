@@ -1,11 +1,13 @@
 int solve(int a) {
-  int x = (a * 5 / 5) + 11
+  int x = a * 5 + 5
+  x = x % 7
   return x
 }
+int AreaSquare(int a) {
+  return a * a
+}
 
-int z = solve(10)
+int z = solve(11)
 print(z)
 
-double x = 9
-x = x / 2
-print(x)
+print(AreaSquare(7))
